@@ -16,14 +16,14 @@ body{
     border-top: 1px solid transparent;
 }
 
-/*alianhar texto e tamanho: CURSO WEB FUNDAMENTOS*/
+
 .hero-content{
     text-align: center;
     color: white;
     margin-top: 50px;
 }
 
-/*formata texto: CURSO WEB FUNDAMENTOS*/
+
 .hero-content h1{
     text-transform: uppercase;
     font-size: 36px;
@@ -45,13 +45,13 @@ body{
     margin-left: 10px;
 }
 
-/*formatando texto: tabela*/
+
 .hero nav ul{
     text-align: right;
     margin: 20px 50px 0 0;
 }
 
-/*colunas: INICIO,PROJETOS,QUEM SOU.*/
+
 .hero nav a{
     background: rgba(0,0,0, 0.3);
     /*cores trasnparentes*/
@@ -65,7 +65,7 @@ body{
     /*espaçamento entre letras*/
 }
 
-/*efeito sobre passar o mouse*/
+
 .hero nav a:hover{
     background: rgba(0,0,0, 0.5);
     transition: color:black .3s linear;
