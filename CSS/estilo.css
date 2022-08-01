@@ -1,0 +1,130 @@
+tittle{
+    display: none
+}
+body{
+    font-family: arial, sans-serif;
+    background: #ccc;
+    margin:0;
+}
+
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+/*alianhar texto e tamanho: CURSO WEB FUNDAMENTOS*/
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+/*formata texto: CURSO WEB FUNDAMENTOS*/
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    text-shadow: 3px 3px 2px #333;
+        
+}
+ 
+.hero-content p{
+    background-color: rgba(0,0,0, .8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style:none;
+    border: solid white;
+    margin-left: 10px;
+}
+
+/*formatando texto: tabela*/
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+/*colunas: INICIO,PROJETOS,QUEM SOU.*/
+.hero nav a{
+    background: rgba(0,0,0, 0.3);
+    /*cores trasnparentes*/
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:12px;
+    letter-spacing: 2px;
+    /*espaçamento entre letras*/
+}
+
+/*efeito sobre passar o mouse*/
+.hero nav a:hover{
+    background: rgba(0,0,0, 0.5);
+    transition: color:black .3s linear;
+}
+
+main{
+    width: 80%;
+    margin:auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float:left;
+    box-sizing: border-box;
+    
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+.card img{
+    width:100%;
+    display: block;
+}
+
+.card p{
+    background-color: #393535;
+    color: white;
+    margin: 0;
+    padding: 15px;
+}
+
+header{
+    background-color: #ededff;
+    font-family: arial,  sans-serif;
+    font-size: 20px;
+    text-indent: 15px
+}
+
+article{
+    font-size: 17px;
+    font-family: arial, sans-serif;
+    text-indent: 15px; 
+}
+
+.rodape{
+    height: 80px;
+    color: white;
+    text-align: center;
+    background:#605f5f;
+    font-size:14px;
+    text-shadow: 2px 2px 2px black;
+    line-height: 80px;
+    
+}
